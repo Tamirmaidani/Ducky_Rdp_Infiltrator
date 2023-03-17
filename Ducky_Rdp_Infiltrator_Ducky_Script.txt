@@ -8,6 +8,9 @@
 # REM stage 2 - run the ducky script with the rubeer ducky and get the cred's in the sepreted usb that was inserted
 # REM stage 3 - connect from an attacker machine with an rdp program with the right pc cred's
 
+# REM note! - remember that in order to create that rdp session, the attacker/penatestar must be in the same network as the target PC or create 
+# REM a portforwarding. so in the pentesting audit it should be after an access to the network target as been granted. 
+
 
 DELAY 500
 GUI r
